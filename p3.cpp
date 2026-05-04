@@ -1,24 +1,49 @@
-#include <iostream>
+#include<bits/stdc++.h>
+
 using namespace std;
-int main()
-{
+
+int main(){
+
+
+
     int t;
+
     cin>>t;
-    for(int mnm=0;mnm<t;mnm++)
+
+    while(t--)
+
     {
-        int a,b,c;
-        cin>>a>>b>>c;
-        if((b-c)%2==0)
-        cout<<1<<" ";
-        else
-        cout<<0<<" ";
-        if((a-c)%2==0)
-        cout<<1<<" ";
-        else
-        cout<<0<<" ";
-        if((b-a)%2==0)
-        cout<<1<<"\n";
-        else
-        cout<<0<<"\n";
+
+        int n;
+
+        cin>>n;
+
+        cin.ignore();
+
+        int element;
+
+        vector<int>ans;
+
+        for(int i=0;i<n;i++)
+
+        {
+
+            cin>>element;
+
+           ans.push_back(element);
+
+        }
+
+        if(ans[0]==1)cout<<"YES"<<endl;
+
+        else cout<<"NO"<<endl;
+
+
+
     }
+
+
+
+    return 0;
+
 }

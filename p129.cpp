@@ -1,4 +1,4 @@
-//
+//Educational Codeforces Round 122 (Rated for Div. 2)  D. Make Them Equal
 #include <iostream>
 #include <bits/stdc++.h>
 #define ll long long
